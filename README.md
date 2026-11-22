@@ -12,6 +12,7 @@ All of them hold generated test data only. They were made with the scripts in th
 |---|---|---|
 | `adiskreader_diff_fixtures.zip` | differencing VHD / VHDX chains made by Windows | `make_diff_vhd.ps1` |
 | `adiskreader_iso_fixtures.zip` | ISO9660, Joliet and UDF disc images made by Windows (IMAPI2) | `make_iso.ps1` |
+| `adiskreader_ntfs_fixtures.zip` | NTFS volumes (VHDX, VHD) written by Windows: compressed (LZNT1, `compact /exe`) and sparse files, named data streams | `make_ntfs_compressed.ps1` |
 | `adiskreader_qemu_fixtures.zip` | QCOW2 and VDI disks made by qemu and VirtualBox | `make_qemu_fixtures.py` |
 | `adiskreader_wim_fixtures.zip` | WIM, split WIM and ESD files made by Windows (DISM) | `make_wim.ps1` |
 | `vbk_fixtures.zip` | Veeam Backup & Replication 13 backup files (VBK, VIB, VBM) of a small test VM | `make_vbk.ps1` |
